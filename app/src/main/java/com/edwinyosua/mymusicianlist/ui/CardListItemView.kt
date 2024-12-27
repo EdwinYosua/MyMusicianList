@@ -44,7 +44,7 @@ fun CardList(musician: Musician, navigateToProfile: (Musician) -> Unit) {
             Image(
                 painter = painterResource(id = musician.profileImg),
                 contentDescription = "Musician Image",
-                contentScale = ContentScale.Fit,
+                contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .padding(8.dp)
                     .size(80.dp)
