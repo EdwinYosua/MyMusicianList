@@ -1,5 +1,7 @@
 package com.edwinyosua.mymusicianlist.data.model
 
+import java.io.Serializable
+
 data class Musician(
     val id: Int,
     val name: String,
@@ -7,4 +9,4 @@ data class Musician(
     val age: Int,
     val description: String,
     val profileImg: Int = 0
-)
+) : Serializable
