@@ -28,9 +28,7 @@ class UserProfile : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            AppTheme {
-                ProfileComponent()
-            }
+            ProfileComponent()
         }
     }
 }
