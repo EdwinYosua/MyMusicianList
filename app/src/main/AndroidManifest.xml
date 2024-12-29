@@ -12,7 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyMusicianList"
         tools:targetApi="31">
-
+        <activity
+            android:name=".ui.menus.DetailScreen"
+            android:exported="false"
+            android:label="@string/title_activity_detail_screen"
+            android:theme="@style/Theme.MyMusicianList" />
         <activity
             android:name=".ui.menus.UserProfile"
             android:exported="false"
